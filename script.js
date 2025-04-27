@@ -31,7 +31,7 @@ clickBtn.addEventListener('click', function() {
     clickSound.currentTime = 0; // Reset audio playback position
     clickSound.play(); // Play the sound
 
-    if (clicks === 100) {
+    if (clicks === 10) {
         boss.style.display = 'block';
         healthContainer.style.display = 'block';
         setInterval(moveBoss, 900); // Boss moves every 0.9 sec
