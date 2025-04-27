@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    overflow: hidden;
+    transition: background 0.5s;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff5733, #ffbd69);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.boss {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#healthBar {
+    width: 200px;
+    height: 20px;
+    background: #555;
+    border: 2px solid white;
+    margin: 10px auto;
+    display: none;
+}
+
+#health {
+    width: 100%;
+    height: 100%;
+    background: limegreen;
+    transition: width 0.3s;
+}
+
+#message {
+    font-size: 20px;
+    color: gold;
+    margin-top: 10px;
+    font-weight: bold;
+}
